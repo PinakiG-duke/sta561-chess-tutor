@@ -1,4 +1,4 @@
-# ♟️ Arete — The Chess Tutor That Does Not Try to Win
+# ♟️ Arete - The Chess Tutor That Does Not Try to Win
 
 **STA561D: Probabilistic Machine Learning | Duke University | Spring 2026**
 
