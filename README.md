@@ -1,4 +1,4 @@
-# ♟️ Arete - The Chess Tutor That Does Not Try to Win
+# ♟️ Arete — The Chess Tutor That Does Not Try to Win
 
 **STA561D: Probabilistic Machine Learning | Duke University | Spring 2026**
 
@@ -10,23 +10,26 @@ The system combines Stockfish move generation, large language model explanation,
 
 ## Screenshots
 
+### Arete — Title and Tagline
+![Arete Banner](screenshots/Arete_Banner.jpg)
+
 ### Main Interface — Tutor Mode
-> **[SCREENSHOT: Full app in Tutor Mode — board visible, complexity meter shown below board, confidence indicator next to evaluation, explanation panel on right with three labelled sections]**
+![Tutor Mode](screenshots/Tutor_Mode_Arete.jpg)
 
 ### Bayesian ELO Panel
-> **[SCREENSHOT: Sidebar with "Auto-detect my ELO" toggle ON — posterior bar chart visible, MAP estimate and uncertainty shown, feedback buttons (Too Simple / Right Level / Too Complex) visible below explanation]**
+![Bayesian ELO Panel](screenshots/ELO_Bayesian_Arete.jpg)
 
-### Position Complexity Meter and Confidence Indicator
-> **[SCREENSHOT: Board with tactical position loaded — complexity label showing "Complex" with entropy value below board, Eval Confidence showing red Low indicator next to centipawn score]**
+### Position Complexity and Confidence Indicator
+![Complexity and Confidence](screenshots/Confidence_Complexity_Arete.jpg)
 
 ### Endgame Trainer
-> **[SCREENSHOT: Endgame Trainer mode — 5x5 board with White King, White Pawn, Black King visible, move dropdown open showing legal moves, coaching tip panel on right, sidebar confirming "RL agent loaded (2,138 states)"]**
+![Endgame Trainer](screenshots/Endgame_Arete.jpg)
 
 ### Play vs Bot Mode
-> **[SCREENSHOT: Play vs Bot mode — bot commentary visible below move selectors, position trend chart showing 6+ moves with green and red points]**
+![Play vs Bot](screenshots/Play_vs_Bot_Arete.jpg)
 
 ### Position Trend Chart
-> **[SCREENSHOT: Evaluation chart after 8 moves — green/red coloring clearly visible, move labels on x-axis, interactive tooltip showing move name and evaluation]**
+![Position Trend](screenshots/Position_Trend_Arete.jpg)
 
 ---
 
@@ -73,10 +76,6 @@ conda activate chess_tutor
 ```bash
 pip install streamlit python-chess anthropic python-dotenv \
             altair pandas scipy scikit-learn textstat matplotlib
-```
-or 
-```bash
-pip install -r requirements.txt
 ```
 
 ### Step 3 — Configure .env
