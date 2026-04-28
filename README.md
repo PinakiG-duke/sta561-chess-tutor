@@ -74,6 +74,10 @@ conda activate chess_tutor
 pip install streamlit python-chess anthropic python-dotenv \
             altair pandas scipy scikit-learn textstat matplotlib
 ```
+or 
+```bash
+pip install -r requirements.txt
+```
 
 ### Step 3 — Configure .env
 Create a `.env` file in the project root based on `.env.example`:
